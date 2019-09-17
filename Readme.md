@@ -9,14 +9,14 @@ This tiny project is for the course Data Mining.
 ## Project Creation
 
 ```bash
-# ~/  当前路径
+# ~/  
 conda create -n wow python==3.7 # Create a new virtual environment named wow
 conda activate wow # Activate this what we created
 conda install pandas seaborn scrapy jupyter notebook # Install all the needed libraries
 mkdir ~/wow # Create a folder
 cd ~/wow/ # Move to the folder
 
-# ~/wow/ 当前路径
+# ~/wow/ 
 scrapy startproject wowdata # Create a new scrapy project
 cd wowdata/ # Move to the project directory
 ```
@@ -41,7 +41,7 @@ wowdata/
 ## Data Acquisition 
 
 - Data Source：[wowhead](https://classic.wowhead.com/ "wowhead")
-- Data Collection：[Python Scrapy 爬虫工具包](https://scrapy.org/ "Python Scrapy")
+- Data Collection：[Python Scrapy](https://scrapy.org/ "Python Scrapy")
 
 The crawler will generate two files
 
