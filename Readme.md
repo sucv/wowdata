@@ -57,7 +57,7 @@ Please put the two csv together with the json files. Your structure should be th
 
 ## Data Processing and visualization
 
-The file wowdataMining.ipynb will do this job.
+The file wowDataMining.ipynb will do this job.
 
 Enjoy. 
 
