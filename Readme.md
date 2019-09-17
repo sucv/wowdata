@@ -55,7 +55,7 @@ Unfortunately, the json files are partly in bad format, which cannot be directly
 Please put the two csv together with the json files. Your structure should be the same as in this github repo.
 
 
-## Data Processing and visualization
+## Data Processing and Visualization
 
 The file wowDataMining.ipynb will do this job.
 
