@@ -56,8 +56,23 @@ Please put the two csv together with the json files. Your structure should be th
 
 
 ## Data Processing and Visualization
+Before the Python part, we have to manually correct some minor problems in all_weapon_supp.csv.
 
-The file wowDataMining.ipynb will do this job.
+The two pairs of weapons:
+
+- Fahrad's Reloading Repeater
+- Light Crossbow
+
+and
+
+- Stoneshatter
+- Fine Light Crossbow
+
+have to be swapped, so that each entries from the two csv files are well aligned. 
+
+We also convert the csv files to xls files for safe keeping.
+
+The file wowDataMining.ipynb will do the rest job.
 
 Enjoy. 
 
